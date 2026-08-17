@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Snake Game</title>
+  </head>
+  <link rel="stylesheet" href="./main.css" />
+  <body>
+    <main>
+      <section id="set">
+        <div class="infos">
+          <div class="info">
+            <h3>
+              Heigh Score:
+              <span class="high-score"></span>
+            </h3>
+          </div>
+          <div class="info">
+            <h3>Score: <span id="score">0 </span></h3>
+          </div>
+          <div class="info">
+            <h3>Time: <span id="time">00-00 </span></h3>
+          </div>
+        </div>
+        <div class="board"></div>
+      </section>
+      <div class="modal">
+        <div class="start-game">
+          <h3>Welcome to Snake-Game</h3>
+          <button class="btn btn-start">Start Game</button>
+        </div>
+        <div class="game-over">
+          <h1>Game Over</h1> 
+          <button class="btn btn-restart">Restart Game</button>
+        </div>
+      </div>
+    </main>
+    <div class="footer">
+      <p>Developed By: Aman Kumar</p>
+    </div>
+  </body>
+  <script src="./main.js"></script>
+</html>
